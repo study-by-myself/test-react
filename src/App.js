@@ -15,7 +15,7 @@ function App() {
   };
 
   const onMinusHandler = (e, index) => {
-    const a = state.indexOf(index);
+    const a = state[index];
     const list = state.filter((i) => i !== a);
     console.log(state);
     console.log(list);
